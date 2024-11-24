@@ -25,6 +25,7 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         ${PROJECT_SOURCES}
         mariawindow.h mariawindow.cpp mariawindow.ui
         katiaform.h katiaform.cpp katiaform.ui
+        katiaformcopy.h katiaformcopy.cpp katiaformcopy.ui
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET untitled APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR
